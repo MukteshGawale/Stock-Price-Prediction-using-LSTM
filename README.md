@@ -16,13 +16,13 @@ The dataset used for this project is Zomato.csv, which contains historical stock
 -  Moving Averages & Daily Returns
 
 🤖 LSTM Model Implementation
-- ✔ TensorFlow/Keras-based LSTM with multiple layers
-- ✔ Sequence Creation: Uses 90-day lookback for forecasting
-- ✔ Saves the trained model for future predictions
+- TensorFlow/Keras-based LSTM with multiple layers
+- Sequence Creation: Uses 90-day lookback for forecasting
+- Saves the trained model for future predictions
 
 🔍 Prediction & Visualization
-- ✔ Generates future stock price predictions
-- ✔ Compares actual vs. predicted closing prices using Matplotlib
+- Generates future stock price predictions
+- Compares actual vs. predicted closing prices using Matplotlib
  
 ### Conclusion
 This project demonstrates the power of LSTM networks in time series forecasting, particularly for stock price prediction. By leveraging historical price data and deep learning, the model provides insights into potential future trends. While LSTMs are effective in capturing patterns, stock markets remain inherently unpredictable due to external factors. Future improvements can include adding more technical indicators, experimenting with hybrid models, or integrating real-time data streams.
